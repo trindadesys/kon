@@ -4,7 +4,6 @@
 	let message = '';
 
 	function handleSubmit() {
-		// Here you would typically send the form data to a server
 		console.log('Form submitted', { name, email, message });
 		alert('Thank you for your message. We will get back to you soon!');
 		name = '';
@@ -49,8 +48,7 @@
 			<p><strong>Business Hours:</strong> Monday - Friday, 9am - 5pm</p>
 
 			<div class="map">
-				<!-- Replace with an actual Google Maps embed -->
-				<img src="/images/map-placeholder.jpg" alt="Our Location" />
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15006.724940461701!2d13.1853058!3d-8.9190601!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f539b1c0012f%3A0x50837cb928f3d46d!2sABJV%20Limitada!5e1!3m2!1sen!2sao!4v1729453927262!5m2!1sen!2sao" width="600" height="450" style="border:0;" allow="fullscreen" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
 		</div>
 	</div>
